@@ -1,35 +1,50 @@
 body {
-    background-color: darkgray;
+    background-color: black;
     margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 nav {
-    padding: 20px;
-    margin: 0;
-    background-color: rgb(206, 206, 206);
-    color: black;
-    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: white;
     font-weight: bold;
+    font-size: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: black;
+    box-sizing: border-box;
 }
 
 .box {
+    margin-top: 90px;
     width: 60%;
-    height: 2000px;
-    background-color: white;
-    color: black;
+    height: 1600px;
+    background-color: rgb(20, 20, 20);
+    color: white;
     font-weight: bold;
-    font-size: 30px;
-    margin: auto;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     gap: 20px;
     flex-direction: column;
     display: flex;
+    border-radius: 12px;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 footer {
+    font-size: 20px;
+    text-align: center;
     padding: 20px;
     margin: 0;
-    background-color: rgb(206, 206, 206);
-    color: black;
+    background-color: gold;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -37,27 +52,48 @@ footer {
 
 .steps {
     align-items: center;
-    display: flex;
     flex-direction: column;
     width: 100%;
-    height: 400px;
-    background-color: black;
+    min-height: 300px;
+    background-color: rgb(45, 45, 45);
     color: rgb(255, 255, 255);
     border-radius: 10px;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
+    box-sizing: border-box;
 }
 
 .titlebox {
     width: 95%;
     height: 30%;
-    background-color: rgb(45, 45, 45);
-    color: white;
+    background-color: black;
+    color: gold;
     font-size: 30px;
     font-weight: bold;
     text-align: left;
     padding: 20px;
     border-radius: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.Btn {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-right: 20px;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
