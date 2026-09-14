@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.Btn {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-right: 20px;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+    color: #333;
+}
+
+.page-intro {
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.photo-box {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #f5ede4;
+    padding: 12px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.photo-box img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.photo-caption {
+    text-align: center;
+    color: #6b5d4f;
+    font-size: 14px;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: gold;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
